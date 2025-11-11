@@ -6,13 +6,6 @@ $pageTitle = $pageTitle ?? 'Maizura Digital Empowerment Trust';
 $pageDescription = $pageDescription ?? 'Maizura Digital Empowerment Trust helps people and small businesses across Aotearoa New Zealand with digital awareness, open-source tools, and AI-powered workflows.';
 $pageSlug = $pageSlug ?? 'home';
 $bodyClass = 'page-' . preg_replace('/[^a-z0-9\-]+/i', '-', $pageSlug);
-$logoPath = site_logo_path();
-$logoExt = strtolower(pathinfo($logoPath, PATHINFO_EXTENSION));
-$logoMime = match ($logoExt) {
-    'png' => 'image/png',
-    'jpg', 'jpeg' => 'image/jpeg',
-    default => 'image/svg+xml',
-};
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +15,8 @@ $logoMime = match ($logoExt) {
     <title><?php echo e($pageTitle); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo e($pageDescription); ?>">
-    <link rel="icon" type="<?php echo e($logoMime); ?>" href="<?php echo e(asset($logoPath)); ?>">
-    <link rel="apple-touch-icon" href="<?php echo e(asset($logoPath)); ?>">
+    <link rel="icon" type="image/svg+xml" href="<?php echo e(asset('assets/images/logo.svg')); ?>">
+    <link rel="apple-touch-icon" href="<?php echo e(asset('assets/images/logo.svg')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
     <script defer src="<?php echo e(asset('assets/js/main.js')); ?>"></script>
 </head>

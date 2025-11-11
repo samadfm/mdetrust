@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 require __DIR__ . '/includes/head.php';
 ?>
 
-<section class="hero hero--contact">
+<section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
             <p class="eyebrow">Connect with Maizura</p>
@@ -85,9 +85,9 @@ require __DIR__ . '/includes/head.php';
                 <span class="meta-pill">Community focused</span>
             </div>
         </div>
-        <div class="hero-panel">
-            <p class="panel-title">Prefer direct contact?</p>
-            <ul class="panel-list">
+        <div class="hero-supplement">
+            <p class="supplement-title">Prefer direct contact?</p>
+            <ul class="supplement-list">
                 <li><strong>Email:</strong> <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a></li>
                 <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">@mdetrust</a></li>
                 <li><strong>Location:</strong> Based in Aotearoa New Zealand with online sessions nationwide.</li>
@@ -99,10 +99,15 @@ require __DIR__ . '/includes/head.php';
     <div class="shell">
         <h2>Send us a message</h2>
         <p class="section-intro">Share a few details about what you need help with and we will get back to you as soon as possible.</p>
+<section class="section section-light">
+    <div class="shell">
+        <h1>Let’s have a kōrero</h1>
+        <p class="section-intro">Use this form to request a free initial conversation. We usually respond within a few days,
+            depending on capacity. We meet online and occasionally in person within New Zealand.</p>
 
         <?php if ($sent): ?>
             <div class="form-alert form-alert--success" role="status">
-                Thank you, your message has been sent. We will reply as soon as we can.
+                Thank you – your message has been sent. We will reply as soon as we can.
             </div>
         <?php elseif ($error): ?>
             <div class="form-alert form-alert--error" role="alert">

@@ -26,7 +26,7 @@ $securityHeaders = [
     'Cross-Origin-Opener-Policy' => 'same-origin',
     'Cross-Origin-Resource-Policy' => 'same-origin',
     'Strict-Transport-Security' => 'max-age=63072000; includeSubDomains; preload',
-    'Content-Security-Policy' => "default-src 'self'; img-src 'self' data:; script-src 'self'; connect-src 'self'; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'",
+    'Content-Security-Policy' => "default-src 'self'; img-src 'self' data:; script-src 'self'; connect-src 'self' https://api.rss2json.com; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'",
 ];
 
 if (!headers_sent()) {
@@ -49,26 +49,5 @@ if (!function_exists('asset')) {
         $fullPath = __DIR__ . '/../' . $trimmed;
         $version = file_exists($fullPath) ? (string) filemtime($fullPath) : (string) time();
         return $trimmed . '?v=' . $version;
-    }
-}
-
-if (!function_exists('site_logo_path')) {
-    function site_logo_path(): string
-    {
-        $candidates = [
-            'assets/images/logo.png',
-            'assets/images/logo.svg',
-            'assets/images/logo.jpg',
-            'assets/images/logo.jpeg',
-        ];
-
-        foreach ($candidates as $candidate) {
-            $fullPath = __DIR__ . '/../' . $candidate;
-            if (file_exists($fullPath)) {
-                return $candidate;
-            }
-        }
-
-        return 'assets/images/logo.svg';
     }
 }

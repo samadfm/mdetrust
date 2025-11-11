@@ -1,6 +1,5 @@
 <?php
 declare(strict_types=1);
-$brandLogoPath = site_logo_path();
 $navItems = [
     'home' => ['label' => 'Home', 'href' => 'index.php'],
     'about' => ['label' => 'About', 'href' => 'about.php'],
@@ -12,7 +11,8 @@ $navItems = [
 <header class="site-header">
     <div class="shell header-shell">
         <a class="brand-block" href="index.php">
-            <img src="<?php echo e(asset($brandLogoPath)); ?>" alt="Maizura Digital Empowerment Trust logo" class="brand-logo" width="84" height="96" loading="eager" fetchpriority="high">
+            <img src="<?php echo e(asset('assets/images/logo.svg')); ?>" alt="Maizura Digital Empowerment Trust logo" class="brand-logo" width="72" height="88">
+            <img src="<?php echo e(asset('assets/images/logo.svg')); ?>" alt="Maizura Digital Empowerment Trust logo" class="brand-logo" width="56" height="56">
             <span class="brand-text">
                 <span class="brand-name">Maizura</span>
                 <span class="brand-tagline">Digital Empowerment Trust</span>

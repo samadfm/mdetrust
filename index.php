@@ -4,33 +4,38 @@ $pageDescription = 'Maizura Digital Empowerment Trust helps people and small bus
 $pageSlug = 'home';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--home">
+<section class="hero">
     <div class="shell hero-grid">
         <div class="hero-copy">
             <p class="eyebrow">Aotearoa · Digital empowerment · Open-source first</p>
-            <h1>Helping New Zealand whānau and small businesses feel confident with technology</h1>
+            <h1>Helping New Zealand whānau and small businesses feel confident with technology.</h1>
             <p class="hero-lead">
-                Maizura Digital Empowerment Trust offers free, vendor neutral guidance on open-source tools, AI and automation,
-                and everyday digital safety. We work alongside you so people can learn, experiment, and grow without sales
-                pressure.
+                Maizura Digital Empowerment Trust offers free, vendor-neutral guidance on open-source tools, AI and automation,
+                and everyday digital safety – so people can learn, experiment, and grow without sales pressure.
             </p>
             <div class="hero-actions">
                 <a href="contact.php" class="btn primary">Book a free kōrero</a>
                 <a href="services.php" class="btn ghost">See what we can help with</a>
             </div>
             <div class="hero-metas">
-                <span class="meta-pill">100% non-profit</span>
-                <span class="meta-pill">Open-source and low-cost tools</span>
-                <span class="meta-pill">Based in Aotearoa New Zealand</span>
+                <div class="meta-pill">100% non-profit</div>
+                <div class="meta-pill">Open-source and low-cost tools</div>
+                <div class="meta-pill">Based in Aotearoa New Zealand</div>
             </div>
         </div>
-        <div class="hero-panel">
-            <p class="panel-title">Ways we empower</p>
-            <ul class="panel-list">
-                <li>Friendly conversations that turn ideas into practical next steps.</li>
-                <li>Digital roadmaps that respect budgets and privacy obligations.</li>
-                <li>Support that keeps your people in charge of decisions and outcomes.</li>
-            </ul>
+        <div class="hero-visual">
+            <div class="hero-orbit">
+                <div class="hero-badge">
+                    <span class="badge-title">Digital Confidence</span>
+                    <span class="badge-subtitle">For Everyone</span>
+                </div>
+                <ul class="hero-points">
+                    <li>Free clarity calls</li>
+                    <li>Open-source toolmaps</li>
+                    <li>AI workflow ideas</li>
+                    <li>Practical security tips</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
@@ -64,7 +69,7 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-dark">
     <div class="shell">
-        <h2>How we help in three simple steps</h2>
+        <h2>How we help – in three simple steps</h2>
         <div class="steps-grid">
             <div class="step">
                 <span class="step-number">1</span>
@@ -94,8 +99,7 @@ require __DIR__ . '/includes/head.php';
             <p>Maizura curates real open-source projects, AI tools, and automation ideas. We test them, break them, improve them,
                 and translate everything into practical language that business owners and everyday users can understand.</p>
             <p>From self-hosted platforms on Proxmox through to simple cloud options on cPanel and shared hosting, we look for
-                solutions that match your budget and skill level. Every roadmap respects New Zealand cybersecurity guidance and
-                the Privacy Act 2020.</p>
+                solutions that match your budget and skill level.</p>
         </div>
         <div class="pill-board">
             <div class="pill-row">

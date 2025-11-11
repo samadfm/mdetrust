@@ -4,7 +4,7 @@ $pageDescription = 'Maizura Digital Empowerment Trust is a New Zealand charitabl
 $pageSlug = 'about';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--about">
+<section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
             <p class="eyebrow">Our kaupapa</p>
@@ -18,9 +18,9 @@ require __DIR__ . '/includes/head.php';
                 <span class="meta-pill">Human-centred AI</span>
             </div>
         </div>
-        <div class="hero-panel">
-            <p class="panel-title">What guides every decision</p>
-            <ul class="panel-list">
+        <div class="hero-supplement">
+            <p class="supplement-title">What guides every decision</p>
+            <ul class="supplement-list">
                 <li><strong>Community-first:</strong> We operate as a non-profit collective focused on serving communities before
                     anything else.</li>
                 <li><strong>Open knowledge:</strong> Every recommendation highlights open-source or low-cost tools that you can
@@ -28,6 +28,29 @@ require __DIR__ . '/includes/head.php';
                 <li><strong>Respectful innovation:</strong> We explore AI safely so people stay in charge of context, ethics, and
                     outcomes.</li>
             </ul>
+<section class="hero-animated">
+    <div class="particle particle1" aria-hidden="true"></div>
+    <div class="particle particle2" aria-hidden="true"></div>
+    <div class="particle particle3" aria-hidden="true"></div>
+    <div class="particle particle4" aria-hidden="true"></div>
+    <div class="particle particle5" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1>About Maizura Digital Empowerment Trust</h1>
+        <p>Maizura is a grassroots charitable trust helping people, whānau, and community organisations in Aotearoa New Zealand
+            build confidence with technology. We keep things practical, transparent, and free from vendor pressure.</p>
+        <div class="hero-icons">
+            <div class="hero-icon">
+                <h3>Community-led</h3>
+                <p>We operate as a non-profit collective focused on serving communities first and foremost.</p>
+            </div>
+            <div class="hero-icon">
+                <h3>Open-source minded</h3>
+                <p>Every recommendation highlights open-source or low-cost tools that you can control and adapt.</p>
+            </div>
+            <div class="hero-icon">
+                <h3>Human-centred AI</h3>
+                <p>We explore AI safely, making sure people stay in charge of decisions, context, and ethics.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -78,8 +101,7 @@ require __DIR__ . '/includes/head.php';
         <div>
             <h2>Why we exist</h2>
             <p>Many whānau and small organisations are unsure who to trust or how to keep up with change. Maizura steps in to
-                provide calm, independent advice with zero sales agenda. We want everyone to shape technology on their terms
-                while honouring New Zealand privacy law and tikanga.</p>
+                provide calm, independent advice with zero sales agenda. We want everyone to shape technology on their terms.</p>
         </div>
     </div>
 </section>

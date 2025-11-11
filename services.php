@@ -4,7 +4,7 @@ $pageDescription = 'Explore how Maizura Digital Empowerment Trust supports indiv
 $pageSlug = 'services';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--services">
+<section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
             <p class="eyebrow">Support for every stage</p>
@@ -18,9 +18,9 @@ require __DIR__ . '/includes/head.php';
                 <span class="meta-pill">Tailored to Aotearoa</span>
             </div>
         </div>
-        <div class="hero-panel">
-            <p class="panel-title">What you receive</p>
-            <ul class="panel-list">
+        <div class="hero-supplement">
+            <p class="supplement-title">What you receive</p>
+            <ul class="supplement-list">
                 <li><strong>Digital assessments:</strong> Short, focused sessions uncovering what is working and what can be
                     strengthened.</li>
                 <li><strong>Technology roadmaps:</strong> Clear, vendor-neutral plans built on open-source or low-cost tools you
@@ -28,6 +28,12 @@ require __DIR__ . '/includes/head.php';
                 <li><strong>Workshops &amp; awareness:</strong> Friendly, interactive learning tailored to New Zealand communities.</li>
             </ul>
         </div>
+<section class="section section-light">
+    <div class="shell">
+        <h1>How we can help</h1>
+        <p class="section-intro">Maizura Digital Empowerment Trust exists to make technology simple, safe, and useful for
+            everyone. Whether you are just starting a small business, managing a community project, or improving an existing
+            setup, we provide clear, independent, and practical advice without cost or bias.</p>
     </div>
 </section>
 
@@ -74,7 +80,7 @@ require __DIR__ . '/includes/head.php';
                 <span class="step-number">C</span>
                 <h3>Independent guidance</h3>
                 <p>Everything we do is 100 percent non-profit and vendor neutral. When you are ready for implementation, we can
-                    point you to reliable suppliers, distributors, and community experts so you stay in control.</p>
+                    point you to reliable suppliers, distributors, and community experts – you stay in control.</p>
             </div>
         </div>
     </div>
@@ -117,7 +123,7 @@ require __DIR__ . '/includes/head.php';
                 <li>We do not promote or lock anyone into a single vendor or platform.</li>
             </ul>
             <p>Our focus is education, empowerment, and trust. We want every person and organisation to make informed technology
-                decisions with complete freedom, aligned with New Zealand regulations and community expectations.</p>
+                decisions with complete freedom.</p>
         </div>
         <div class="pill-board">
             <div class="pill-row">

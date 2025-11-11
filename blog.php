@@ -1,10 +1,11 @@
 <?php
 $pageTitle = 'Blog and Awareness Stream · Maizura Digital Empowerment Trust';
-$pageDescription = 'Curated insights, open-source tool updates and digital awareness posts from Maizura Digital Empowerment Trust, connecting Aotearoa New Zealand with responsible AI and IT awareness.';
+$pageDescription = 'Curated insights, open-source tool updates and digital awareness posts from Maizura Digital Empowerment Trust — connecting Aotearoa New Zealand with responsible AI and IT awareness.';
 $pageSlug = 'blog';
+$pageScripts = '<script defer src="' . e(asset('assets/js/blog-ticker.js')) . '"></script>';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--blog">
+<section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
             <p class="eyebrow">Insights &amp; updates</p>
@@ -18,9 +19,9 @@ require __DIR__ . '/includes/head.php';
                 <span class="meta-pill">Community-first guidance</span>
             </div>
         </div>
-        <div class="hero-panel">
-            <p class="panel-title">Follow Maizura</p>
-            <ul class="panel-links">
+        <div class="hero-supplement">
+            <p class="supplement-title">Follow Maizura</p>
+            <ul class="supplement-links">
                 <li><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn<span
                             aria-hidden="true">&rarr;</span></a></li>
                 <li><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok<span aria-hidden="true">&rarr;</span></a>
@@ -33,46 +34,46 @@ require __DIR__ . '/includes/head.php';
         </div>
     </div>
 </section>
+<div class="ai-ticker" id="aiTicker">
+    <span>Loading latest AI, open-source and digital awareness updates...</span>
+</div>
 <section class="section section-light">
     <div class="shell">
         <h2>Why our updates live across channels</h2>
+        <h1>Blog and awareness stream</h1>
         <p class="section-intro">Most of our content currently lives on platforms such as
             <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn</a>,
             <a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok</a>, and
             <a href="https://instagram.com/mdetrust" target="_blank" rel="noopener">Instagram</a>. This page collects those
             streams and highlights key awareness topics for people across Aotearoa New Zealand.</p>
         <p class="section-note">Every post, video, or short clip we publish is created to encourage responsible use of
-            technology in everyday life, from small businesses adopting open-source tools to families learning safe AI
+            technology in everyday life — from small businesses adopting open-source tools to families learning safe AI
             practices. Our aim is to make digital awareness part of New Zealand’s community culture.</p>
     </div>
 </section>
 
 <section class="section section-light">
-    <div class="shell">
-        <h2>Latest awareness highlights</h2>
-        <div class="card-grid three">
-            <article class="card">
-                <h3>Small business resilience</h3>
-                <p>How a South Auckland whānau business trimmed costs by moving email, document storage, and invoicing to
-                    open-source platforms they now manage themselves.</p>
-                <p><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="btn small">Read the
-                        LinkedIn kōrero</a></p>
-            </article>
-            <article class="card">
-                <h3>AI with people in control</h3>
-                <p>A TikTok explainer breaking down responsible AI prompts for customer service teams, including tips on data
-                    privacy and tone of voice.</p>
-                <p><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="btn small">Watch the update</a>
-                </p>
-            </article>
-            <article class="card">
-                <h3>Community scam awareness</h3>
-                <p>Recent Instagram stories covering the latest phishing trends in Aotearoa, plus a printable checklist for
-                    marae and community groups.</p>
-                <p><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="btn small">See the stories</a>
-                </p>
-            </article>
-        </div>
+    <div class="shell card-grid three">
+        <article class="card">
+            <h3>LinkedIn insights</h3>
+            <p>Daily write-ups on open-source projects, AI tools we explore, and digital transformation stories from New Zealand
+                businesses.</p>
+            <p><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="btn small">Visit
+                    LinkedIn</a></p>
+        </article>
+        <article class="card">
+            <h3>TikTok updates</h3>
+            <p>Quick awareness clips on scams, privacy, and digital wellbeing – short-form videos that make IT learning fun and
+                easy.</p>
+            <p><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="btn small">See TikTok feed</a>
+            </p>
+        </article>
+        <article class="card">
+            <h3>Instagram reels</h3>
+            <p>Visual snippets that share quick IT tips, open-source tools, and AI awareness for young audiences in Aotearoa.</p>
+            <p><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="btn small">View on Instagram</a>
+            </p>
+        </article>
     </div>
 </section>
 
