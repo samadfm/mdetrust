@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maizura Digital Empowerment Trust</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Maizura Digital Empowerment Trust helps people and small businesses across Aotearoa New Zealand with digital awareness, open-source tools, and AI-powered workflows.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body class="home">
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="shell">
+      <div class="brand-block">
+        <img src="assets/images/logo.png"
+             alt="Maizura Digital Empowerment Trust logo"
+             class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-name">Maizura</span>
+          <span class="brand-tagline">Digital Empowerment Trust</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.php" class="nav-link active">Home</a>
+        <a href="about.php" class="nav-link">About</a>
+        <a href="services.php" class="nav-link">Services</a>
+        <a href="blog.php" class="nav-link">Blog</a>
+        <a href="contact.php" class="nav-link nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="shell hero-grid">
+
+        <div class="hero-copy">
+          <p class="eyebrow">Aotearoa · Digital empowerment · Open-source first</p>
+          <h1>
+            Helping New Zealand whānau and small businesses
+            feel confident with technology.
+          </h1>
+          <p class="hero-lead">
+            Maizura Digital Empowerment Trust offers free, vendor-neutral guidance on
+            open-source tools, AI and automation, and everyday digital safety – so people
+            can learn, experiment, and grow without sales pressure.
+          </p>
+
+          <div class="hero-actions">
+            <a href="contact.php" class="btn primary">Book a free kōrero</a>
+            <a href="services.php" class="btn ghost">See what we can help with</a>
+          </div>
+
+          <div class="hero-metas">
+            <div class="meta-pill">100% non-profit</div>
+            <div class="meta-pill">Open-source and low-cost tools</div>
+            <div class="meta-pill">Based in Aotearoa New Zealand</div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-orbit">
+            <div class="hero-badge">
+              <span class="badge-title">Digital Confidence</span>
+              <span class="badge-subtitle">For Everyone</span>
+            </div>
+            <ul class="hero-points">
+              <li>Free Clarity Calls</li>
+              <li>Open-Source Toolmaps</li>
+              <li>AI Workflow Ideas</li>
+              <li>Practical Security Tips</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHO WE SUPPORT -->
+    <section class="section section-light">
+      <div class="shell">
+        <h2>Who we support</h2>
+        <p class="section-intro">
+          We are here for people and organisations who want to use technology better,
+          but do not know where to start or do not have a big IT budget.
+        </p>
+
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Individuals & Whānau</h3>
+            <p>
+              Help with staying safe online, understanding scams, setting up devices,
+              protecting kids, and building everyday digital skills.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Community Groups</h3>
+            <p>
+              Guidance on free collaboration tools, newsletters, simple websites, and
+              digital processes that keep admin light and transparent.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Small Businesses</h3>
+            <p>
+              Vendor-neutral advice on invoicing, POS, CRM, automation, and ticketing
+              focusing on open-source or low-cost options that you control.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE HELP -->
+    <section class="section section-dark">
+      <div class="shell">
+        <h2>How we help – in three simple steps</h2>
+
+        <div class="steps-grid">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h3>Listen</h3>
+            <p>
+              We start with a conversation to understand your goals, current tools,
+              and any pain points, no jargon, no pressure.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="step-number">2</span>
+            <h3>Map</h3>
+            <p>
+              We design a simple roadmap using open-source and affordable tools,
+              tailored to your context in New Zealand.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="step-number">3</span>
+            <h3>Support</h3>
+            <p>
+              We provide guidance, resources, and ongoing check-ins so you can roll
+              out changes at your own pace with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE LEARN SECTION -->
+    <section class="section section-light">
+      <div class="shell split">
+        <div>
+          <h2>Learn with real tools, not theory.</h2>
+          <p>
+            Maizura curates real open-source projects, AI tools, and automation ideas.
+            We test them, break them, improve them, and then translate everything into
+            practical language that business owners and everyday users can understand.
+          </p>
+          <p>
+            From self-hosted platforms on Proxmox through to simple cloud options on
+            cPanel and shared hosting, we always look for solutions that match your
+            budget and skill level.
+          </p>
+        </div>
+        <div class="pill-board">
+          <div class="pill-row">
+            <span class="pill hot">Open-source first</span>
+            <span class="pill soft">AI with human judgment</span>
+          </div>
+          <div class="pill-row">
+            <span class="pill soft">Privacy-respecting tools</span>
+            <span class="pill hot">No vendor lock-in</span>
+          </div>
+          <div class="pill-row">
+            <span class="pill soft">Real examples from NZ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL / STAY CONNECTED -->
+    <section class="section section-gradient">
+      <div class="shell">
+        <h2>Stay connected with Maizura</h2>
+        <p class="section-intro">
+          We share daily posts, tool breakdowns, and awareness content across our social channels.
+          Follow us where you already are.
+        </p>
+
+        <div class="social-row">
+          <a href="https://www.linkedin.com/company/mdetrust" target="_blank" class="social-chip">LinkedIn</a>
+          <a href="https://youtube.com/@mdetrust" target="_blank" class="social-chip">YouTube</a>
+          <a href="https://x.com/mdetrust" target="_blank" class="social-chip">X</a>
+          <a href="https://facebook.com/mdetrust" target="_blank" class="social-chip">Facebook</a>
+          <a href="https://tiktok.com/@mdetrust" target="_blank" class="social-chip">TikTok</a>
+          <a href="https://instagram.com/mdetrust" target="_blank" class="social-chip">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section section-footer-cta">
+      <div class="shell">
+        <h2>Ready to explore what technology can do for you?</h2>
+        <p>
+          Whether you are just starting out or already running systems that feel messy,
+          we would love to sit down for a relaxed, obligation-free kōrero.
+        </p>
+        <a href="contact.php" class="btn primary large">Talk to Maizura</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-col">
+        <strong>Maizura Digital Empowerment Trust</strong>
+        <p>Empowering people across Aotearoa to use technology in a safe, smart, and affordable way.</p>
+      </div>
+      <div class="footer-col">
+        <span class="footer-label">Quick links</span>
+        <a href="about.php">About</a>
+        <a href="services.php">Services</a>
+        <a href="blog.php">Blog</a>
+        <a href="contact.php">Contact</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-label">Connect</span>
+        <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a>
+        <a href="https://www.linkedin.com/company/mdetrust" target="_blank">LinkedIn</a>
+        <a href="https://youtube.com/@mdetrust" target="_blank">YouTube</a>
+        <a href="https://facebook.com/mdetrust" target="_blank">Facebook</a>
+        <a href="https://instagram.com/mdetrust" target="_blank">Instagram</a>
+        <a href="https://x.com/mdetrust" target="_blank">X (Twitter)</a>
+        <a href="https://tiktok.com/@mdetrust" target="_blank">TikTok</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <?php echo date('Y'); ?> Maizura Digital Empowerment Trust</span>
+      <span>Made with open-source tools and a lot of curiosity.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
