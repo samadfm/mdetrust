@@ -5,11 +5,41 @@ $pageSlug = 'blog';
 $pageScripts = '<script defer src="' . e(asset('assets/js/blog-ticker.js')) . '"></script>';
 require __DIR__ . '/includes/head.php';
 ?>
+<section class="hero hero--subpage">
+    <div class="shell hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Insights &amp; updates</p>
+            <h1>Blog and awareness stream</h1>
+            <p class="hero-lead">Maizura shares daily awareness posts and tool breakdowns across LinkedIn, TikTok, Instagram, and
+                other channels. This hub curates those streams so communities across Aotearoa New Zealand can explore them all in
+                one place.</p>
+            <div class="hero-metas">
+                <span class="meta-pill">Open-source stories</span>
+                <span class="meta-pill">Responsible AI tips</span>
+                <span class="meta-pill">Community-first guidance</span>
+            </div>
+        </div>
+        <div class="hero-supplement">
+            <p class="supplement-title">Follow Maizura</p>
+            <ul class="supplement-links">
+                <li><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn<span
+                            aria-hidden="true">&rarr;</span></a></li>
+                <li><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok<span aria-hidden="true">&rarr;</span></a>
+                </li>
+                <li><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener">Instagram<span aria-hidden="true">&rarr;</span></a>
+                </li>
+                <li><a href="https://youtube.com/@mdetrust" target="_blank" rel="noopener">YouTube<span aria-hidden="true">&rarr;</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 <div class="ai-ticker" id="aiTicker">
     <span>Loading latest AI, open-source and digital awareness updates...</span>
 </div>
 <section class="section section-light">
     <div class="shell">
+        <h2>Why our updates live across channels</h2>
         <h1>Blog and awareness stream</h1>
         <p class="section-intro">Most of our content currently lives on platforms such as
             <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn</a>,

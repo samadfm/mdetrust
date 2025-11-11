@@ -4,6 +4,30 @@ $pageDescription = 'Maizura Digital Empowerment Trust is a New Zealand charitabl
 $pageSlug = 'about';
 require __DIR__ . '/includes/head.php';
 ?>
+<section class="hero hero--subpage">
+    <div class="shell hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Our kaupapa</p>
+            <h1>About Maizura Digital Empowerment Trust</h1>
+            <p class="hero-lead">Maizura is a grassroots charitable trust helping people, whānau, and community organisations across
+                Aotearoa New Zealand build confidence with technology. We keep guidance practical, transparent, and free from
+                vendor pressure.</p>
+            <div class="hero-metas">
+                <span class="meta-pill">Community-led</span>
+                <span class="meta-pill">Open-source minded</span>
+                <span class="meta-pill">Human-centred AI</span>
+            </div>
+        </div>
+        <div class="hero-supplement">
+            <p class="supplement-title">What guides every decision</p>
+            <ul class="supplement-list">
+                <li><strong>Community-first:</strong> We operate as a non-profit collective focused on serving communities before
+                    anything else.</li>
+                <li><strong>Open knowledge:</strong> Every recommendation highlights open-source or low-cost tools that you can
+                    control and adapt.</li>
+                <li><strong>Respectful innovation:</strong> We explore AI safely so people stay in charge of context, ethics, and
+                    outcomes.</li>
+            </ul>
 <section class="hero-animated">
     <div class="particle particle1" aria-hidden="true"></div>
     <div class="particle particle2" aria-hidden="true"></div>

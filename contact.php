@@ -71,6 +71,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 require __DIR__ . '/includes/head.php';
 ?>
+
+<section class="hero hero--subpage">
+    <div class="shell hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Connect with Maizura</p>
+            <h1>Let’s have a kōrero</h1>
+            <p class="hero-lead">Use this form to request a free initial conversation. We usually respond within a few days depending
+                on capacity and meet online across Aotearoa New Zealand.</p>
+            <div class="hero-metas">
+                <span class="meta-pill">Free clarity calls</span>
+                <span class="meta-pill">Privacy respected</span>
+                <span class="meta-pill">Community focused</span>
+            </div>
+        </div>
+        <div class="hero-supplement">
+            <p class="supplement-title">Prefer direct contact?</p>
+            <ul class="supplement-list">
+                <li><strong>Email:</strong> <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">@mdetrust</a></li>
+                <li><strong>Location:</strong> Based in Aotearoa New Zealand with online sessions nationwide.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section section-light">
+    <div class="shell">
+        <h2>Send us a message</h2>
+        <p class="section-intro">Share a few details about what you need help with and we will get back to you as soon as possible.</p>
 <section class="section section-light">
     <div class="shell">
         <h1>Let’s have a kōrero</h1>

@@ -4,6 +4,30 @@ $pageDescription = 'Explore how Maizura Digital Empowerment Trust supports indiv
 $pageSlug = 'services';
 require __DIR__ . '/includes/head.php';
 ?>
+<section class="hero hero--subpage">
+    <div class="shell hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Support for every stage</p>
+            <h1>How we can help</h1>
+            <p class="hero-lead">Maizura Digital Empowerment Trust makes technology simple, safe, and useful for everyone. Whether
+                you are starting a small business, running a community project, or refining an existing setup, we provide
+                independent, practical advice without cost or sales pressure.</p>
+            <div class="hero-metas">
+                <span class="meta-pill">Non-profit guidance</span>
+                <span class="meta-pill">Open-source first</span>
+                <span class="meta-pill">Tailored to Aotearoa</span>
+            </div>
+        </div>
+        <div class="hero-supplement">
+            <p class="supplement-title">What you receive</p>
+            <ul class="supplement-list">
+                <li><strong>Digital assessments:</strong> Short, focused sessions uncovering what is working and what can be
+                    strengthened.</li>
+                <li><strong>Technology roadmaps:</strong> Clear, vendor-neutral plans built on open-source or low-cost tools you
+                    can trust.</li>
+                <li><strong>Workshops &amp; awareness:</strong> Friendly, interactive learning tailored to New Zealand communities.</li>
+            </ul>
+        </div>
 <section class="section section-light">
     <div class="shell">
         <h1>How we can help</h1>
