@@ -40,6 +40,7 @@ require __DIR__ . '/includes/head.php';
 <section class="section section-light">
     <div class="shell">
         <h2>Why our updates live across channels</h2>
+        <h1>Blog and awareness stream</h1>
         <p class="section-intro">Most of our content currently lives on platforms such as
             <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn</a>,
             <a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok</a>, and

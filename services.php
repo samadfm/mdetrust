@@ -28,6 +28,12 @@ require __DIR__ . '/includes/head.php';
                 <li><strong>Workshops &amp; awareness:</strong> Friendly, interactive learning tailored to New Zealand communities.</li>
             </ul>
         </div>
+<section class="section section-light">
+    <div class="shell">
+        <h1>How we can help</h1>
+        <p class="section-intro">Maizura Digital Empowerment Trust exists to make technology simple, safe, and useful for
+            everyone. Whether you are just starting a small business, managing a community project, or improving an existing
+            setup, we provide clear, independent, and practical advice without cost or bias.</p>
     </div>
 </section>
 

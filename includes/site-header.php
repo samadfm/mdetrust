@@ -12,6 +12,7 @@ $navItems = [
     <div class="shell header-shell">
         <a class="brand-block" href="index.php">
             <img src="<?php echo e(asset('assets/images/logo.svg')); ?>" alt="Maizura Digital Empowerment Trust logo" class="brand-logo" width="72" height="88">
+            <img src="<?php echo e(asset('assets/images/logo.svg')); ?>" alt="Maizura Digital Empowerment Trust logo" class="brand-logo" width="56" height="56">
             <span class="brand-text">
                 <span class="brand-name">Maizura</span>
                 <span class="brand-tagline">Digital Empowerment Trust</span>

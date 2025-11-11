@@ -99,6 +99,11 @@ require __DIR__ . '/includes/head.php';
     <div class="shell">
         <h2>Send us a message</h2>
         <p class="section-intro">Share a few details about what you need help with and we will get back to you as soon as possible.</p>
+<section class="section section-light">
+    <div class="shell">
+        <h1>Let’s have a kōrero</h1>
+        <p class="section-intro">Use this form to request a free initial conversation. We usually respond within a few days,
+            depending on capacity. We meet online and occasionally in person within New Zealand.</p>
 
         <?php if ($sent): ?>
             <div class="form-alert form-alert--success" role="status">
