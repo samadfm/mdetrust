@@ -8,19 +8,17 @@ require __DIR__ . '/includes/head.php';
 <section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
-            <p class="eyebrow">Insights &amp; updates</p>
-            <h1>Blog and awareness stream</h1>
-            <p class="hero-lead">Maizura shares daily awareness posts and tool breakdowns across LinkedIn, TikTok, Instagram, and
-                other channels. This hub curates those streams so communities across Aotearoa New Zealand can explore them all in
-                one place.</p>
+            <p class="eyebrow">Kōrero · Community · Learning</p>
+            <h1>Insights from Maizura</h1>
+            <p class="hero-lead">We share daily posts, tool reviews, safety tips, and stories across social channels — tailored to Aotearoa communities. This is where we discuss what's happening in the digital world and how it affects the people we support.</p>
             <div class="hero-metas">
-                <span class="meta-pill">Open-source stories</span>
-                <span class="meta-pill">Responsible AI tips</span>
-                <span class="meta-pill">Community-first guidance</span>
+                <span class="meta-pill">Real insights for Aotearoa</span>
+                <span class="meta-pill">Open-source focus</span>
+                <span class="meta-pill">Community-driven learning</span>
             </div>
         </div>
         <div class="hero-supplement">
-            <p class="supplement-title">Follow Maizura</p>
+            <p class="supplement-title">Connect with us</p>
             <ul class="supplement-links">
                 <li><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn<span
                             aria-hidden="true">&rarr;</span></a></li>
@@ -39,39 +37,29 @@ require __DIR__ . '/includes/head.php';
 </div>
 <section class="section section-light">
     <div class="shell">
-        <h2>Why our updates live across channels</h2>
-        <h1>Blog and awareness stream</h1>
-        <p class="section-intro">Most of our content currently lives on platforms such as
-            <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn</a>,
-            <a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok</a>, and
-            <a href="https://instagram.com/mdetrust" target="_blank" rel="noopener">Instagram</a>. This page collects those
-            streams and highlights key awareness topics for people across Aotearoa New Zealand.</p>
-        <p class="section-note">Every post, video, or short clip we publish is created to encourage responsible use of
-            technology in everyday life — from small businesses adopting open-source tools to families learning safe AI
-            practices. Our aim is to make digital awareness part of New Zealand’s community culture.</p>
+        <h2>Where we share and why</h2>
+        <p class="section-intro">We post daily on platforms where Aotearoa whānau actually spend time — LinkedIn, TikTok, Instagram, YouTube. Every post is written for real people, not algorithms. Here's what you'll find:</p>
+        <p class="section-note">From a hairdresser asking about email security to a marae coordinator wondering about data storage, we answer real questions in plain language. We break down open-source tools, share stories of digital empowerment, and help people spot scams. Everything is grounded in Aotearoa context — our climate, our values, our challenges.</p>
     </div>
 </section>
 
 <section class="section section-light">
     <div class="shell card-grid three">
         <article class="card">
-            <h3>LinkedIn insights</h3>
-            <p>Daily write-ups on open-source projects, AI tools we explore, and digital transformation stories from New Zealand
-                businesses.</p>
-            <p><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="btn small">Visit
-                    LinkedIn</a></p>
+            <h3>LinkedIn — In-depth stories</h3>
+            <p>We write longer posts about what's happening in the open-source world, stories of whānau and businesses getting digital confidence, and discussions about AI ethics and responsibility. This is where we go deep.</p>
+            <p><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="btn small">Read on LinkedIn</a></p>
         </article>
         <article class="card">
-            <h3>TikTok updates</h3>
-            <p>Quick awareness clips on scams, privacy, and digital wellbeing – short-form videos that make IT learning fun and
-                easy.</p>
-            <p><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="btn small">See TikTok feed</a>
+            <h3>TikTok — Quick wins</h3>
+            <p>60-second awareness clips: how to spot a scam email, why privacy matters, how to set a strong password, should you trust that AI tool? Real situations, real answers, no nonsense.</p>
+            <p><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="btn small">Follow on TikTok</a>
             </p>
         </article>
         <article class="card">
-            <h3>Instagram reels</h3>
-            <p>Visual snippets that share quick IT tips, open-source tools, and AI awareness for young audiences in Aotearoa.</p>
-            <p><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="btn small">View on Instagram</a>
+            <h3>Instagram — Visual guides</h3>
+            <p>Infographics, step-by-step visual tutorials, and stories from our community. We break down digital safety and open-source tools into shareable, beautiful visuals.</p>
+            <p><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="btn small">Follow on Instagram</a>
             </p>
         </article>
     </div>
@@ -79,22 +67,25 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-dark">
     <div class="shell">
-        <h2>Topics we care about</h2>
+        <h2>What you'll learn from us</h2>
         <div class="pill-board">
             <div class="pill-row">
-                <span class="pill soft">Safe use of AI tools</span>
-                <span class="pill soft">Password &amp; identity hygiene</span>
-                <span class="pill soft">Open-source platforms</span>
+                <span class="pill soft">Spotting scams and staying safe</span>
+                <span class="pill soft">Understanding AI honestly</span>
+                <span class="pill soft">Open-source tool reviews</span>
             </div>
             <div class="pill-row">
-                <span class="pill soft">Digital wellbeing for families</span>
-                <span class="pill soft">Low-cost automation ideas</span>
-                <span class="pill soft">Privacy-aware hosting</span>
+                <span class="pill soft">Privacy for whānau</span>
+                <span class="pill soft">Digital confidence building</span>
+                <span class="pill soft">Community tech stories</span>
+            </div>
+            <div class="pill-row">
+                <span class="pill soft">Business automation ideas</span>
+                <span class="pill soft">Kids &amp; screen time wisdom</span>
+                <span class="pill soft">Building independent tech</span>
             </div>
         </div>
-        <p class="section-note section-note--spaced">Over time, we plan to publish long-form articles directly on this
-            website. Until then, this page serves as a hub for all the content we share across platforms, helping New
-            Zealanders access everything in one place.</p>
+        <p class="section-note section-note--spaced">Every piece of content we create is a conversation, not a lecture. We welcome your questions, your stories, and your feedback. Follow, comment, and tag us — let's learn together as a community.</p>
     </div>
 </section>
 <?php require __DIR__ . '/includes/footer.php'; ?>

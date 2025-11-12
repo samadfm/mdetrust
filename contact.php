@@ -75,39 +75,34 @@ require __DIR__ . '/includes/head.php';
 <section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
-            <p class="eyebrow">Connect with Maizura</p>
-            <h1>Let’s have a kōrero</h1>
-            <p class="hero-lead">Use this form to request a free initial conversation. We usually respond within a few days depending
-                on capacity and meet online across Aotearoa New Zealand.</p>
+            <p class="eyebrow">We'd love to hear from you</p>
+            <h1>Start a kōrero with Maizura</h1>
+            <p class="hero-lead">Whether you're ready to dive in or just curious, fill out the form below and we'll get back to you within a few days. Every conversation is free, judgment-free, and focused on what actually matters to you.</p>
             <div class="hero-metas">
-                <span class="meta-pill">Free clarity calls</span>
-                <span class="meta-pill">Privacy respected</span>
-                <span class="meta-pill">Community focused</span>
+                <span class="meta-pill">Completely free</span>
+                <span class="meta-pill">No obligation</span>
+                <span class="meta-pill">Whānau-friendly</span>
             </div>
         </div>
         <div class="hero-supplement">
-            <p class="supplement-title">Prefer direct contact?</p>
+            <p class="supplement-title">Prefer to reach out directly?</p>
             <ul class="supplement-list">
-                <li><strong>Email:</strong> <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">@mdetrust</a></li>
-                <li><strong>Location:</strong> Based in Aotearoa New Zealand with online sessions nationwide.</li>
+                <li><strong>Email us:</strong> <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a></li>
+                <li><strong>Find us:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn @mdetrust</a></li>
+                <li><strong>Our style:</strong> Online sessions across Aotearoa, usually evenings and weekends.</li>
             </ul>
         </div>
     </div>
 </section>
 <section class="section section-light">
     <div class="shell">
+
         <h2>Send us a message</h2>
-        <p class="section-intro">Share a few details about what you need help with and we will get back to you as soon as possible.</p>
-<section class="section section-light">
-    <div class="shell">
-        <h1>Let’s have a kōrero</h1>
-        <p class="section-intro">Use this form to request a free initial conversation. We usually respond within a few days,
-            depending on capacity. We meet online and occasionally in person within New Zealand.</p>
+        <p class="section-intro">Tell us a bit about yourself and what you're curious about or struggling with. No question is too simple or complicated.</p>
 
         <?php if ($sent): ?>
             <div class="form-alert form-alert--success" role="status">
-                Thank you – your message has been sent. We will reply as soon as we can.
+                Kia ora — your message has been sent! We'll get back to you as soon as we can. In the meantime, you might enjoy checking out our stories page to see what other whānau and businesses have done.
             </div>
         <?php elseif ($error): ?>
             <div class="form-alert form-alert--error" role="alert">
@@ -120,20 +115,19 @@ require __DIR__ . '/includes/head.php';
             <label class="sr-only" for="website">Leave this field empty</label>
             <input type="text" name="website" id="website" tabindex="-1" autocomplete="off" class="honeypot">
 
-            <label for="name">Your name*</label>
-            <input type="text" id="name" name="name" value="<?php echo e($values['name']); ?>" required>
+            <label for="name">Your name or rōpū*</label>
+            <input type="text" id="name" name="name" value="<?php echo e($values['name']); ?>" placeholder="E.g., Aroha or Rangatikei Community Group" required>
 
-            <label for="email">Email address*</label>
-            <input type="email" id="email" name="email" value="<?php echo e($values['email']); ?>" required>
+            <label for="email">Your email address*</label>
+            <input type="email" id="email" name="email" value="<?php echo e($values['email']); ?>" placeholder="We'll use this to get back to you" required>
 
-            <label for="phone">Contact number (optional)</label>
-            <input type="tel" id="phone" name="phone" value="<?php echo e($values['phone']); ?>">
+            <label for="phone">A phone number (optional)</label>
+            <input type="tel" id="phone" name="phone" value="<?php echo e($values['phone']); ?>" placeholder="If you'd prefer a quick call instead">
 
-            <label for="message">How can we help?*</label>
-            <textarea id="message" name="message" rows="6" required><?php echo e($values['message']); ?></textarea>
+            <label for="message">Tell us what's on your mind*</label>
+            <textarea id="message" name="message" rows="6" placeholder="What are you hoping to achieve? What's frustrating you? What would help?" required><?php echo e($values['message']); ?></textarea>
 
-            <p class="form-hint">We will only use your details to respond to this enquiry. We comply with the New Zealand
-                Privacy Act 2020 and will not share your data without consent unless required by law.</p>
+            <p class="form-hint">Your information is safe with us. We use your details only to respond to this message, and we comply fully with the New Zealand Privacy Act 2020. We'll never share your data without permission.</p>
 
             <button type="submit" class="btn primary">Send message</button>
         </form>
@@ -143,20 +137,19 @@ require __DIR__ . '/includes/head.php';
 <section class="section section-dark">
     <div class="shell split">
         <div>
-            <h2>Other ways to connect</h2>
-            <p>If the form does not work for you, email us directly or reach out via LinkedIn. We respond as quickly as we can
-                while balancing family and community commitments.</p>
+            <h2>Not ready for a form? No problem</h2>
+            <p>If you prefer to shoot us a quick email, jump on LinkedIn, or chat over the phone — that's totally fine. We're real people, not a corporate call centre. We respond as soon as we can, usually within a few days (sometimes faster depending on what's on our plates).</p>
             <p><strong>Email:</strong> <a href="mailto:info@maizura.org.nz">info@maizura.org.nz</a><br>
-                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">mdetrust</a>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">@mdetrust</a>
             </p>
         </div>
         <div class="pill-board">
             <div class="pill-row">
-                <span class="pill soft">Evening &amp; weekend sessions</span>
-                <span class="pill soft">Online first</span>
+                <span class="pill soft">Evenings &amp; weekends available</span>
+                <span class="pill soft">Online across Aotearoa</span>
             </div>
             <div class="pill-row">
-                <span class="pill hot">No sales pressure</span>
+                <span class="pill hot">Zero sales agenda</span>
             </div>
         </div>
     </div>

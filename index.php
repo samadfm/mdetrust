@@ -7,33 +7,32 @@ require __DIR__ . '/includes/head.php';
 <section class="hero">
     <div class="shell hero-grid">
         <div class="hero-copy">
-            <p class="eyebrow">Aotearoa · Digital empowerment · Open-source first</p>
-            <h1>Helping New Zealand whānau and small businesses feel confident with technology.</h1>
+            <p class="eyebrow">Kōrero · Community · Empowerment</p>
+            <h1>Technology shouldn't feel like a mystery. We're here to demystify it.</h1>
             <p class="hero-lead">
-                Maizura Digital Empowerment Trust offers free, vendor-neutral guidance on open-source tools, AI and automation,
-                and everyday digital safety – so people can learn, experiment, and grow without sales pressure.
+                Too many whānau and small businesses in Aotearoa feel locked out of the digital world — confused by jargon, worried about scams, or trapped by expensive software they don't control. At Maizura, we believe technology should be simple, honest, and serve <em>your</em> needs. We help people and organisations across Aotearoa gain confidence with digital tools through free, no-nonsense guidance rooted in open-source principles and real community needs.
             </p>
             <div class="hero-actions">
-                <a href="contact.php" class="btn primary">Book a free kōrero</a>
-                <a href="services.php" class="btn ghost">See what we can help with</a>
+                <a href="contact.php" class="btn primary">Start a kōrero with us (it's free)</a>
+                <a href="services.php" class="btn ghost">See what we do</a>
             </div>
             <div class="hero-metas">
-                <div class="meta-pill">100% non-profit</div>
-                <div class="meta-pill">Open-source and low-cost tools</div>
-                <div class="meta-pill">Based in Aotearoa New Zealand</div>
+                <div class="meta-pill">100% free and non-profit</div>
+                <div class="meta-pill">Completely open-source focused</div>
+                <div class="meta-pill">Whānau and community-led</div>
             </div>
         </div>
         <div class="hero-visual">
             <div class="hero-orbit">
                 <div class="hero-badge">
-                    <span class="badge-title">Digital Confidence</span>
-                    <span class="badge-subtitle">For Everyone</span>
+                    <span class="badge-title">Your Digital</span>
+                    <span class="badge-subtitle">Your Way</span>
                 </div>
                 <ul class="hero-points">
-                    <li>Free clarity calls</li>
-                    <li>Open-source toolmaps</li>
-                    <li>AI workflow ideas</li>
-                    <li>Practical security tips</li>
+                    <li>No vendor lock-in, ever</li>
+                    <li>Practical advice for real life</li>
+                    <li>Tools you actually control</li>
+                    <li>Community over corporate</li>
                 </ul>
             </div>
         </div>
@@ -42,26 +41,22 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-light">
     <div class="shell">
-        <h2>Who we support</h2>
+        <h2>We work with real people doing real mahi</h2>
         <p class="section-intro">
-            We are here for people and organisations who want to use technology better, but do not know where to start or do not
-            have a big IT budget.
+            Whether you're a grandparent learning to video call, a marae managing volunteers, or a hairdresser starting your first business — we meet you where you are.
         </p>
         <div class="card-grid three">
             <article class="card">
-                <h3>Individuals &amp; Whānau</h3>
-                <p>Help with staying safe online, understanding scams, setting up devices, protecting kids, and building everyday
-                    digital skills.</p>
+                <h3>Whānau &amp; Individuals</h3>
+                <p>From "How do I spot a fake email?" to "Should I trust this AI tool?" — we help whānau stay safe online, protect their tamariki, and use technology with confidence and peace of mind.</p>
             </article>
             <article class="card">
-                <h3>Community Groups</h3>
-                <p>Guidance on free collaboration tools, newsletters, simple websites, and digital processes that keep admin light
-                    and transparent.</p>
+                <h3>Community Groups &amp; Marae</h3>
+                <p>Marae, rōpū, and community organisations get bogged down in spreadsheets and email chaos. We help you find free, simple tools that keep your mahi organised, transparent, and accessible to everyone.</p>
             </article>
             <article class="card">
-                <h3>Small Businesses</h3>
-                <p>Vendor-neutral advice on invoicing, POS, CRM, automation, and ticketing focusing on open-source or low-cost
-                    options that you control.</p>
+                <h3>Small Businesses &amp; Startups</h3>
+                <p>You've got a vision and a lean budget. We help you build digital foundations using tools you control — from email and websites to payment systems and simple automation that actually saves time.</p>
             </article>
         </div>
     </div>
@@ -69,24 +64,22 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-dark">
     <div class="shell">
-        <h2>How we help – in three simple steps</h2>
+        <h2>Our way of working — simple and human</h2>
         <div class="steps-grid">
             <div class="step">
                 <span class="step-number">1</span>
-                <h3>Listen</h3>
-                <p>We start with a conversation to understand your goals, current tools, and any pain points, no jargon, no
-                    pressure.</p>
+                <h3>Kai and kōrero</h3>
+                <p>We sit down (usually over a cuppa) and listen. What keeps you up at night? What feels broken? What would make your mahi easier? No pressure, no jargon, just honest conversation.</p>
             </div>
             <div class="step">
                 <span class="step-number">2</span>
-                <h3>Map</h3>
-                <p>We design a simple roadmap using open-source and affordable tools, tailored to your context in New Zealand.</p>
+                <h3>Co-design your path</h3>
+                <p>We sketch out a simple plan together — showing you tools you can actually use and afford, how to get started, and what success looks like for <em>your</em> situation.</p>
             </div>
             <div class="step">
                 <span class="step-number">3</span>
-                <h3>Support</h3>
-                <p>We provide guidance, resources, and ongoing check-ins so you can roll out changes at your own pace with
-                    confidence.</p>
+                <h3>Walk alongside you</h3>
+                <p>We don't disappear once you've got the roadmap. We share resources, check in, answer questions, and help you move at a pace that feels right — no rushing, no corporate timelines.</p>
             </div>
         </div>
     </div>
@@ -95,23 +88,21 @@ require __DIR__ . '/includes/head.php';
 <section class="section section-light">
     <div class="shell split">
         <div>
-            <h2>Learn with real tools, not theory.</h2>
-            <p>Maizura curates real open-source projects, AI tools, and automation ideas. We test them, break them, improve them,
-                and translate everything into practical language that business owners and everyday users can understand.</p>
-            <p>From self-hosted platforms on Proxmox through to simple cloud options on cPanel and shared hosting, we look for
-                solutions that match your budget and skill level.</p>
+            <h2>Real tools for real people.</h2>
+            <p>We don't teach theory — we show you the actual tools we use and trust. We test them in the real world, sometimes break them, learn from mistakes, and then explain what we found in language that makes sense (no tech-speak required).</p>
+            <p>Whether you're running a small business from home, managing a community rōpū, or protecting your whānau online, we find solutions that fit your budget, your skills, and your values — with no corporate tricks hidden underneath.</p>
         </div>
         <div class="pill-board">
             <div class="pill-row">
-                <span class="pill hot">Open-source first</span>
-                <span class="pill soft">AI with human judgment</span>
+                <span class="pill hot">Open-source always</span>
+                <span class="pill soft">Privacy is non-negotiable</span>
             </div>
             <div class="pill-row">
-                <span class="pill soft">Privacy-respecting tools</span>
-                <span class="pill hot">No vendor lock-in</span>
+                <span class="pill soft">You stay in control</span>
+                <span class="pill hot">No vendor lock-in, ever</span>
             </div>
             <div class="pill-row">
-                <span class="pill soft">Real examples from NZ</span>
+                <span class="pill soft">Built for Aotearoa context</span>
             </div>
         </div>
     </div>
@@ -119,26 +110,24 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-gradient">
     <div class="shell">
-        <h2>Stay connected with Maizura</h2>
-        <p class="section-intro">We share daily posts, tool breakdowns, and awareness content across our social channels. Follow
-            us where you already are.</p>
+        <h2>Learn, share, and grow with our community</h2>
+        <p class="section-intro">We post daily — quick tips on staying safe online, tool breakdowns, stories from the community, and thoughts on the future of digital life in Aotearoa. Follow us on the platforms you already use.</p>
         <div class="pill-row">
-            <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="pill hot">LinkedIn</a>
-            <a href="https://youtube.com/@mdetrust" target="_blank" rel="noopener" class="pill soft">YouTube</a>
-            <a href="https://x.com/mdetrust" target="_blank" rel="noopener" class="pill soft">X</a>
-            <a href="https://facebook.com/mdetrust" target="_blank" rel="noopener" class="pill soft">Facebook</a>
-            <a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="pill soft">TikTok</a>
-            <a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="pill soft">Instagram</a>
+            <a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="pill hot">LinkedIn — In-depth stories</a>
+            <a href="https://youtube.com/@mdetrust" target="_blank" rel="noopener" class="pill soft">YouTube — Tutorials & talks</a>
+            <a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="pill soft">TikTok — Quick awareness clips</a>
+            <a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="pill soft">Instagram — Visual guides</a>
+            <a href="https://x.com/mdetrust" target="_blank" rel="noopener" class="pill soft">X — Real-time thoughts</a>
+            <a href="https://facebook.com/mdetrust" target="_blank" rel="noopener" class="pill soft">Facebook — Community updates</a>
         </div>
     </div>
 </section>
 
 <section class="section section-footer-cta">
     <div class="shell">
-        <h2>Ready to explore what technology can do for you?</h2>
-        <p>Whether you are just starting out or already running systems that feel messy, we would love to sit down for a relaxed,
-            obligation-free kōrero.</p>
-        <a href="contact.php" class="btn primary large">Talk to Maizura</a>
+        <h2>Your digital future is in your hands</h2>
+        <p>Whether you're just waking up to the digital world or you're drowning in confusing tools and promises, we're here to help. No sales pitch. No jargon. Just real, honest kōrero about technology that works for <em>you</em>.</p>
+        <a href="contact.php" class="btn primary large">Let's have a kōrero</a>
     </div>
 </section>
 <?php require __DIR__ . '/includes/footer.php'; ?>
