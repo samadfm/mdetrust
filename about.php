@@ -7,74 +7,41 @@ require __DIR__ . '/includes/head.php';
 <section class="hero hero--subpage">
     <div class="shell hero-grid">
         <div class="hero-copy">
-            <p class="eyebrow">Our kaupapa</p>
-            <h1>About Maizura Digital Empowerment Trust</h1>
-            <p class="hero-lead">Maizura is a grassroots charitable trust helping people, whānau, and community organisations across
-                Aotearoa New Zealand build confidence with technology. We keep guidance practical, transparent, and free from
-                vendor pressure.</p>
+            <p class="eyebrow">Our story · Our kaupapa</p>
+            <h1>Why Maizura exists</h1>
+            <p class="hero-lead">We started because we saw whānau and community groups across Aotearoa struggling with the same problem: they want to harness technology to improve their lives, but they don't have access to honest, independent advice. They're tired of vendor pitches, confused by jargon, and afraid of making expensive mistakes. Maizura exists to change that.</p>
             <div class="hero-metas">
-                <span class="meta-pill">Community-led</span>
-                <span class="meta-pill">Open-source minded</span>
-                <span class="meta-pill">Human-centred AI</span>
+                <span class="meta-pill">For the people of Aotearoa</span>
+                <span class="meta-pill">Always open-source</span>
+                <span class="meta-pill">Transparency-first</span>
             </div>
         </div>
         <div class="hero-supplement">
-            <p class="supplement-title">What guides every decision</p>
+            <p class="supplement-title">What we stand for</p>
             <ul class="supplement-list">
-                <li><strong>Community-first:</strong> We operate as a non-profit collective focused on serving communities before
-                    anything else.</li>
-                <li><strong>Open knowledge:</strong> Every recommendation highlights open-source or low-cost tools that you can
-                    control and adapt.</li>
-                <li><strong>Respectful innovation:</strong> We explore AI safely so people stay in charge of context, ethics, and
-                    outcomes.</li>
+                <li><strong>Whānau and community first:</strong> Profit never comes before people. We're here to serve, not to sell.</li>
+                <li><strong>Openness in everything:</strong> You should be able to see, understand, and change the tools you use. No lock-in. No secrets.</li>
+                <li><strong>Tech should be kind:</strong> Technology can frighten people or empower them. We choose empowerment every time.</li>
             </ul>
-<section class="hero-animated">
-    <div class="particle particle1" aria-hidden="true"></div>
-    <div class="particle particle2" aria-hidden="true"></div>
-    <div class="particle particle3" aria-hidden="true"></div>
-    <div class="particle particle4" aria-hidden="true"></div>
-    <div class="particle particle5" aria-hidden="true"></div>
-    <div class="hero-inner">
-        <h1>About Maizura Digital Empowerment Trust</h1>
-        <p>Maizura is a grassroots charitable trust helping people, whānau, and community organisations in Aotearoa New Zealand
-            build confidence with technology. We keep things practical, transparent, and free from vendor pressure.</p>
-        <div class="hero-icons">
-            <div class="hero-icon">
-                <h3>Community-led</h3>
-                <p>We operate as a non-profit collective focused on serving communities first and foremost.</p>
-            </div>
-            <div class="hero-icon">
-                <h3>Open-source minded</h3>
-                <p>Every recommendation highlights open-source or low-cost tools that you can control and adapt.</p>
-            </div>
-            <div class="hero-icon">
-                <h3>Human-centred AI</h3>
-                <p>We explore AI safely, making sure people stay in charge of decisions, context, and ethics.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="section section-light">
     <div class="shell">
-        <h2>What guides Maizura</h2>
-        <p class="section-intro">Our kaupapa centres on dignity, access, and empowerment. Technology should serve people, not
-            overwhelm them.</p>
+        <h2>Our founding principles</h2>
+        <p class="section-intro">Everything we do comes back to these core kaupapa. They guide decisions, how we work with people, and what tools we recommend.</p>
         <div class="card-grid three">
             <article class="principle-card">
-                <h3>Empathy first</h3>
-                <p>We meet people where they are and co-design solutions that respect culture, pace, and capacity.</p>
-                <span class="pill guide">Manaakitanga</span>
+                <h3>Manaakitanga — care with respect</h3>
+                <p>We meet people where they are. We listen more than we talk. We respect different cultures, learning speeds, and life circumstances. Whānau-centric, always.</p>
+                <span class="pill guide">Dignity first</span>
             </article>
             <article class="principle-card">
-                <h3>Open knowledge</h3>
-                <p>We document everything we learn, releasing guides under open licences so communities can reuse them.</p>
-                <span class="pill guide">Open-source</span>
+                <h3>Whanaungatanga — connection &amp; community</h3>
+                <p>We're not a corporate service. We're part of Aotearoa's community. We share what we learn, support each other's mahi, and celebrate collective progress.</p>
+                <span class="pill guide">Together stronger</span>
             </article>
             <article class="principle-card">
-                <h3>Security woven in</h3>
-                <p>Privacy, safety, and resilience are considered from the outset for every whānau and organisation.</p>
-                <span class="pill guide">Kaitiakitanga</span>
+                <h3>Kaitiakitanga — guardianship &amp; responsibility</h3>
+                <p>We protect privacy like it's sacred (because it is). We think about long-term impacts. We're stewards of trust, not exploiters of data.</p>
+                <span class="pill guide">Trust earned</span>
             </article>
         </div>
     </div>
@@ -82,26 +49,25 @@ require __DIR__ . '/includes/head.php';
 
 <section class="section section-how">
     <div class="shell">
-        <h2>How we work</h2>
-        <p>We start with listening sessions, co-create a digital roadmap, and stay alongside you as you learn. From device safety
-            to AI automation pilots, we adapt the depth of support so you always feel confident.</p>
+        <h2>How we do our mahi</h2>
+        <p>We don't come in with a template. We listen, ask questions, and work alongside people to build a path that makes sense for their unique context. Whether you're a single parent learning to protect your tamariki online, or a community rōpū trying to manage volunteers and donations, we adapt to what you actually need.</p>
     </div>
 </section>
 
 <section class="section section-light">
     <div class="shell split">
         <div>
-            <h2>Where we focus time</h2>
+            <h2>We focus on real impact</h2>
             <ul>
-                <li>Introductory awareness sessions for marae, schools, and local groups.</li>
-                <li>One-on-one kōrero with small business founders exploring digital tools.</li>
-                <li>Guided experimentation with open-source platforms and automation ideas.</li>
+                <li><strong>Practical learning sessions:</strong> for marae, schools, whānau, and community groups — no slides, just real conversation.</li>
+                <li><strong>One-to-one support:</strong> for small business owners, sole traders, and community leaders who need honest guidance.</li>
+                <li><strong>Hands-on experimentation:</strong> helping people safely test tools, fail, learn, and grow at their own pace.</li>
+                <li><strong>Capability building:</strong> training and mentoring so organisations can keep going without us.</li>
             </ul>
         </div>
         <div>
-            <h2>Why we exist</h2>
-            <p>Many whānau and small organisations are unsure who to trust or how to keep up with change. Maizura steps in to
-                provide calm, independent advice with zero sales agenda. We want everyone to shape technology on their terms.</p>
+            <h2>The gap we fill</h2>
+            <p>The problem is simple: there's a huge trust gap in Aotearoa. Tech salespeople want to sell you something. Overseas tech companies want your data. But who actually cares about your whānau's safety and your organisation's independence? That's Maizura. We're here because the gap existed, and our community needed filling it.</p>
         </div>
     </div>
 </section>
