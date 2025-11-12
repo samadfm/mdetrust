@@ -6,32 +6,41 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <!-- Hero -->
-<section class="py-24 bg-gradient-to-br from-blue-600 to-teal-600 text-white">
-    <div class="container mx-auto px-4">
+<section class="relative overflow-hidden py-32 md:py-48 bg-gradient-to-br from-emerald-600 via-teal-500 to-cyan-600 text-white">
+    <div class="absolute inset-0 opacity-20">
+        <div class="absolute top-20 right-10 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl animation-pulse"></div>
+        <div class="absolute -bottom-20 left-1/2 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Why Maizura exists</h1>
-            <p class="text-xl opacity-95">
-                We started because we saw whānau and community groups across Aotearoa struggling with the same problem: they want technology to improve their lives, but they don't have access to honest, independent advice. They're tired of vendor pitches, confused by jargon, and afraid of making expensive mistakes. Maizura exists to change that.
+            <h1 class="text-6xl md:text-7xl font-black mb-8 leading-tight">
+                Why Maizura <span class="bg-gradient-to-r from-yellow-200 to-orange-300 bg-clip-text text-transparent">exists</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-white/95 leading-relaxed">
+                We saw whānau and communities across Aotearoa struggling with the same painful truth: they want technology to improve their lives, but they don't have access to honest, independent advice. They're tired of vendor pitches, confused by jargon, and scared of making expensive mistakes.
+            </p>
+            <p class="text-xl md:text-2xl text-white/95 leading-relaxed mt-6">
+                Maizura exists to change that story. We're here to empower, educate, and build trust.
             </p>
         </div>
     </div>
 </section>
 
 <!-- Core Values -->
-<section class="py-20 bg-white">
+<section class="py-24 bg-white">
     <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">What we stand for</h2>
-        <p class="text-center text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
-            Three principles guide everything we do.
+        <h2 class="text-4xl md:text-5xl font-black text-center text-gray-900 mb-6">Built on three unshakeable values</h2>
+        <p class="text-center text-gray-600 text-lg mb-20 max-w-2xl mx-auto">
+            Everything we do flows from these principles.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Whānau First -->
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border-2 border-blue-200">
-                <div class="text-5xl mb-4">💚</div>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Whānau & Community First</h3>
+            <div class="group bg-gradient-to-br from-teal-50 to-emerald-100 p-10 rounded-3xl border-2 border-teal-300 hover:shadow-2xl hover:shadow-teal-300/30 transition hover:-translate-y-2">
+                <div class="text-6xl mb-6">💚</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Whānau First</h3>
                 <p class="text-gray-700 leading-relaxed">
-                    Profit never comes before people. We're a non-profit collective focused on serving communities first and foremost. Your success is our success.
+                    Profit never, ever comes before people. We're a non-profit collective who celebrate when you become completely independent of us.
                 </p>
             </div>
 
