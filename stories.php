@@ -6,7 +6,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <!-- Hero -->
-<section class="py-24 bg-gradient-to-br from-purple-600 to-pink-600 text-white">
+<section class="py-24 bg-gradient-to-br from-emerald-600 via-teal-500 to-cyan-600 text-white">
     <div class="container mx-auto px-4">
         <div class="max-w-3xl">
             <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Stories from Aotearoa</h1>
@@ -98,7 +98,7 @@ require __DIR__ . '/includes/head.php';
             <p class="text-lg text-gray-600 mb-6">
                 More stories coming soon. What's yours?
             </p>
-            <a href="contact.php" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-lg hover:shadow-lg transition">
+            <a href="contact.php" class="inline-block px-8 py-4 bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-600 text-white font-bold rounded-lg hover:shadow-lg transition">
                 Start your story
             </a>
         </div>

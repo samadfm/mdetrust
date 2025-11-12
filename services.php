@@ -6,7 +6,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <!-- Hero -->
-<section class="py-24 bg-gradient-to-br from-teal-600 to-blue-600 text-white">
+<section class="py-24 bg-gradient-to-br from-emerald-600 via-teal-500 to-cyan-600 text-white">
     <div class="container mx-auto px-4">
         <div class="max-w-3xl">
             <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">How Maizura supports your mahi</h1>
@@ -141,7 +141,7 @@ require __DIR__ . '/includes/head.php';
 </section>
 
 <!-- CTA -->
-<section class="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white text-center">
+<section class="py-16 bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-600 text-white text-center">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-6">Ready to build your digital foundations?</h2>
         <a href="contact.php" class="inline-block px-10 py-4 bg-white text-teal-600 font-bold rounded-lg hover:bg-gray-100 transition">

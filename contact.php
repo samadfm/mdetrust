@@ -68,7 +68,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <!-- Hero -->
-<section class="py-24 bg-gradient-to-br from-green-600 to-teal-600 text-white">
+<section class="py-24 bg-gradient-to-br from-emerald-600 via-teal-500 to-cyan-600 text-white">
     <div class="container mx-auto px-4">
         <div class="max-w-3xl">
             <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Start a kōrero with Maizura</h1>
@@ -164,7 +164,7 @@ require __DIR__ . '/includes/head.php';
                     <!-- Submit -->
                     <button
                         type="submit"
-                        class="w-full px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white font-bold text-lg rounded-lg hover:shadow-lg transition">
+                        class="w-full px-8 py-4 bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-600 text-white font-bold text-lg rounded-lg hover:shadow-lg transition">
                         Send message →
                     </button>
                 </form>
@@ -177,11 +177,11 @@ require __DIR__ . '/includes/head.php';
                     <div class="space-y-4">
                         <div>
                             <p class="text-sm font-semibold text-gray-700 mb-1">📧 Email</p>
-                            <a href="mailto:info@maizura.org.nz" class="text-green-600 hover:underline font-semibold">info@maizura.org.nz</a>
+                            <a href="mailto:info@maizura.org.nz" class="text-teal-600 hover:underline font-semibold">info@maizura.org.nz</a>
                         </div>
                         <div>
                             <p class="text-sm font-semibold text-gray-700 mb-1">💼 LinkedIn</p>
-                            <a href="https://www.linkedin.com/company/mdetrust" target="_blank" class="text-green-600 hover:underline font-semibold">@mdetrust</a>
+                            <a href="https://www.linkedin.com/company/mdetrust" target="_blank" class="text-teal-600 hover:underline font-semibold">@mdetrust</a>
                         </div>
                         <div>
                             <p class="text-sm font-semibold text-gray-700 mb-1">🌍 Where we are</p>

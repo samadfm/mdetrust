@@ -6,7 +6,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <!-- Hero -->
-<section class="py-24 bg-gradient-to-br from-indigo-600 to-blue-600 text-white">
+<section class="py-24 bg-gradient-to-br from-emerald-600 via-teal-500 to-cyan-600 text-white">
     <div class="container mx-auto px-4">
         <div class="max-w-3xl">
             <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Insights from Maizura</h1>
