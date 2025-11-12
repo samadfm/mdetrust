@@ -1,91 +1,140 @@
 <?php
-$pageTitle = 'Blog and Awareness Stream · Maizura Digital Empowerment Trust';
-$pageDescription = 'Curated insights, open-source tool updates and digital awareness posts from Maizura Digital Empowerment Trust — connecting Aotearoa New Zealand with responsible AI and IT awareness.';
+$pageTitle = 'Blog & Insights | Daily Digital Awareness from Maizura';
+$pageDescription = 'Daily insights on open-source tools, digital safety, responsible AI, and technology for Aotearoa. Follow our posts across LinkedIn, TikTok, Instagram & YouTube.';
 $pageSlug = 'blog';
-$pageScripts = '<script defer src="' . e(asset('assets/js/blog-ticker.js')) . '"></script>';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--subpage">
-    <div class="shell hero-grid">
-        <div class="hero-copy">
-            <p class="eyebrow">Kōrero · Community · Learning</p>
-            <h1>Insights from Maizura</h1>
-            <p class="hero-lead">We share daily posts, tool reviews, safety tips, and stories across social channels — tailored to Aotearoa communities. This is where we discuss what's happening in the digital world and how it affects the people we support.</p>
-            <div class="hero-metas">
-                <span class="meta-pill">Real insights for Aotearoa</span>
-                <span class="meta-pill">Open-source focus</span>
-                <span class="meta-pill">Community-driven learning</span>
-            </div>
+
+<!-- Hero -->
+<section class="py-24 bg-gradient-to-br from-indigo-600 to-blue-600 text-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Insights from Maizura</h1>
+            <p class="text-xl opacity-95">
+                We share daily posts, tool reviews, safety tips, and stories across social channels — tailored to Aotearoa communities. This is where we discuss what's happening in the digital world and how it affects the people we support.
+            </p>
         </div>
-        <div class="hero-supplement">
-            <p class="supplement-title">Connect with us</p>
-            <ul class="supplement-links">
-                <li><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener">LinkedIn<span
-                            aria-hidden="true">&rarr;</span></a></li>
-                <li><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener">TikTok<span aria-hidden="true">&rarr;</span></a>
-                </li>
-                <li><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener">Instagram<span aria-hidden="true">&rarr;</span></a>
-                </li>
-                <li><a href="https://youtube.com/@mdetrust" target="_blank" rel="noopener">YouTube<span aria-hidden="true">&rarr;</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-<div class="ai-ticker" id="aiTicker">
-    <span>Loading latest AI, open-source and digital awareness updates...</span>
-</div>
-<section class="section section-light">
-    <div class="shell">
-        <h2>Where we share and why</h2>
-        <p class="section-intro">We post daily on platforms where Aotearoa whānau actually spend time — LinkedIn, TikTok, Instagram, YouTube. Every post is written for real people, not algorithms. Here's what you'll find:</p>
-        <p class="section-note">From a hairdresser asking about email security to a marae coordinator wondering about data storage, we answer real questions in plain language. We break down open-source tools, share stories of digital empowerment, and help people spot scams. Everything is grounded in Aotearoa context — our climate, our values, our challenges.</p>
     </div>
 </section>
 
-<section class="section section-light">
-    <div class="shell card-grid three">
-        <article class="card">
-            <h3>LinkedIn — In-depth stories</h3>
-            <p>We write longer posts about what's happening in the open-source world, stories of whānau and businesses getting digital confidence, and discussions about AI ethics and responsibility. This is where we go deep.</p>
-            <p><a href="https://www.linkedin.com/company/mdetrust" target="_blank" rel="noopener" class="btn small">Read on LinkedIn</a></p>
-        </article>
-        <article class="card">
-            <h3>TikTok — Quick wins</h3>
-            <p>60-second awareness clips: how to spot a scam email, why privacy matters, how to set a strong password, should you trust that AI tool? Real situations, real answers, no nonsense.</p>
-            <p><a href="https://tiktok.com/@mdetrust" target="_blank" rel="noopener" class="btn small">Follow on TikTok</a>
-            </p>
-        </article>
-        <article class="card">
-            <h3>Instagram — Visual guides</h3>
-            <p>Infographics, step-by-step visual tutorials, and stories from our community. We break down digital safety and open-source tools into shareable, beautiful visuals.</p>
-            <p><a href="https://instagram.com/mdetrust" target="_blank" rel="noopener" class="btn small">Follow on Instagram</a>
-            </p>
-        </article>
+<!-- Where We Share -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Where we share and why</h2>
+        <p class="text-center text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
+            We post on platforms where Aotearoa whānau actually spend time — where we meet you, not where algorithms decide.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <!-- LinkedIn -->
+            <div class="bg-white border-2 border-blue-200 rounded-2xl p-8 hover:shadow-xl transition">
+                <div class="text-5xl mb-4">💼</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">LinkedIn — In-depth stories</h3>
+                <p class="text-gray-600 mb-6">
+                    Long-form posts on open-source tools, stories of digital transformation, and discussions about AI ethics and responsibility. This is where we go deep.
+                </p>
+                <a href="https://www.linkedin.com/company/mdetrust" target="_blank" class="inline-block px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+                    Follow on LinkedIn →
+                </a>
+            </div>
+
+            <!-- TikTok -->
+            <div class="bg-white border-2 border-purple-200 rounded-2xl p-8 hover:shadow-xl transition">
+                <div class="text-5xl mb-4">🎵</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">TikTok — Quick wins</h3>
+                <p class="text-gray-600 mb-6">
+                    60-second awareness clips: spot a scam email, set a strong password, understand privacy, should you trust that AI tool? Real situations, no nonsense.
+                </p>
+                <a href="https://tiktok.com/@mdetrust" target="_blank" class="inline-block px-6 py-2 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition">
+                    Follow on TikTok →
+                </a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="bg-white border-2 border-pink-200 rounded-2xl p-8 hover:shadow-xl transition">
+                <div class="text-5xl mb-4">📸</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">Instagram — Visual guides</h3>
+                <p class="text-gray-600 mb-6">
+                    Infographics, step-by-step tutorials, and stories from our community. Beautiful, shareable visuals about digital safety and open tools.
+                </p>
+                <a href="https://instagram.com/mdetrust" target="_blank" class="inline-block px-6 py-2 bg-pink-600 text-white font-semibold rounded-lg hover:bg-pink-700 transition">
+                    Follow on Instagram →
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-2xl border-2 border-indigo-200">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">What you'll learn from us</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex gap-3">
+                    <span class="text-xl">🔒</span>
+                    <span class="text-gray-700">Spotting scams and staying safe</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">🤖</span>
+                    <span class="text-gray-700">Understanding AI honestly</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">🔓</span>
+                    <span class="text-gray-700">Open-source tool reviews</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">🔐</span>
+                    <span class="text-gray-700">Privacy for whānau</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">💪</span>
+                    <span class="text-gray-700">Digital confidence building</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">🌍</span>
+                    <span class="text-gray-700">Community tech stories</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">⚡</span>
+                    <span class="text-gray-700">Business automation ideas</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">👨‍👩‍👧</span>
+                    <span class="text-gray-700">Kids & screen time wisdom</span>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-xl">🌱</span>
+                    <span class="text-gray-700">Building independent tech</span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="section section-dark">
-    <div class="shell">
-        <h2>What you'll learn from us</h2>
-        <div class="pill-board">
-            <div class="pill-row">
-                <span class="pill soft">Spotting scams and staying safe</span>
-                <span class="pill soft">Understanding AI honestly</span>
-                <span class="pill soft">Open-source tool reviews</span>
-            </div>
-            <div class="pill-row">
-                <span class="pill soft">Privacy for whānau</span>
-                <span class="pill soft">Digital confidence building</span>
-                <span class="pill soft">Community tech stories</span>
-            </div>
-            <div class="pill-row">
-                <span class="pill soft">Business automation ideas</span>
-                <span class="pill soft">Kids &amp; screen time wisdom</span>
-                <span class="pill soft">Building independent tech</span>
+<!-- YouTube -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-8">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">YouTube — Tutorials & talks</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Step-by-step video guides, tool demonstrations, and recorded talks from our community workshops. Learn at your own pace.
+                    </p>
+                    <a href="https://youtube.com/@mdetrust" target="_blank" class="inline-block px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition">
+                        Subscribe on YouTube →
+                    </a>
+                </div>
+                <div class="bg-red-100 h-64 rounded-lg flex items-center justify-center text-6xl">▶️</div>
             </div>
         </div>
-        <p class="section-note section-note--spaced">Every piece of content we create is a conversation, not a lecture. We welcome your questions, your stories, and your feedback. Follow, comment, and tag us — let's learn together as a community.</p>
     </div>
 </section>
+
+<!-- CTA -->
+<section class="py-16 bg-indigo-600 text-white text-center">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6">Follow us, engage, and learn together</h2>
+        <p class="text-lg opacity-95 mb-8">
+            Every post is a conversation, not a lecture. Share your stories, ask questions, and let's build digital confidence in Aotearoa together.
+        </p>
+    </div>
+</section>
+
 <?php require __DIR__ . '/includes/footer.php'; ?>

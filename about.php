@@ -1,74 +1,180 @@
 <?php
-$pageTitle = 'About · Maizura Digital Empowerment Trust';
-$pageDescription = 'Maizura Digital Empowerment Trust is a New Zealand charitable trust promoting digital learning, open-source awareness, and responsible technology use across Aotearoa.';
+$pageTitle = 'About Maizura | Digital Empowerment Trust for Aotearoa';
+$pageDescription = 'Learn about Maizura - why we exist, our kaupapa (values), and how we help whānau and communities across Aotearoa build digital confidence.';
 $pageSlug = 'about';
 require __DIR__ . '/includes/head.php';
 ?>
-<section class="hero hero--subpage">
-    <div class="shell hero-grid">
-        <div class="hero-copy">
-            <p class="eyebrow">Our story · Our kaupapa</p>
-            <h1>Why Maizura exists</h1>
-            <p class="hero-lead">We started because we saw whānau and community groups across Aotearoa struggling with the same problem: they want to harness technology to improve their lives, but they don't have access to honest, independent advice. They're tired of vendor pitches, confused by jargon, and afraid of making expensive mistakes. Maizura exists to change that.</p>
-            <div class="hero-metas">
-                <span class="meta-pill">For the people of Aotearoa</span>
-                <span class="meta-pill">Always open-source</span>
-                <span class="meta-pill">Transparency-first</span>
+
+<!-- Hero -->
+<section class="py-24 bg-gradient-to-br from-blue-600 to-teal-600 text-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Why Maizura exists</h1>
+            <p class="text-xl opacity-95">
+                We started because we saw whānau and community groups across Aotearoa struggling with the same problem: they want technology to improve their lives, but they don't have access to honest, independent advice. They're tired of vendor pitches, confused by jargon, and afraid of making expensive mistakes. Maizura exists to change that.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Core Values -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">What we stand for</h2>
+        <p class="text-center text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
+            Three principles guide everything we do.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Whānau First -->
+            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border-2 border-blue-200">
+                <div class="text-5xl mb-4">💚</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Whānau & Community First</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Profit never comes before people. We're a non-profit collective focused on serving communities first and foremost. Your success is our success.
+                </p>
+            </div>
+
+            <!-- Openness -->
+            <div class="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl border-2 border-teal-200">
+                <div class="text-5xl mb-4">🔓</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Openness in Everything</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    You should be able to see, understand, and change the tools you use. No lock-in. No secrets. No hidden agendas. Just transparency.
+                </p>
+            </div>
+
+            <!-- Kindness -->
+            <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl border-2 border-purple-200">
+                <div class="text-5xl mb-4">🤝</div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Tech Should Be Kind</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Technology can frighten people or empower them. We choose empowerment every time. Respectful, human-centered, always.
+                </p>
             </div>
         </div>
-        <div class="hero-supplement">
-            <p class="supplement-title">What we stand for</p>
-            <ul class="supplement-list">
-                <li><strong>Whānau and community first:</strong> Profit never comes before people. We're here to serve, not to sell.</li>
-                <li><strong>Openness in everything:</strong> You should be able to see, understand, and change the tools you use. No lock-in. No secrets.</li>
-                <li><strong>Tech should be kind:</strong> Technology can frighten people or empower them. We choose empowerment every time.</li>
-            </ul>
-<section class="section section-light">
-    <div class="shell">
-        <h2>Our founding principles</h2>
-        <p class="section-intro">Everything we do comes back to these core kaupapa. They guide decisions, how we work with people, and what tools we recommend.</p>
-        <div class="card-grid three">
-            <article class="principle-card">
-                <h3>Manaakitanga — care with respect</h3>
-                <p>We meet people where they are. We listen more than we talk. We respect different cultures, learning speeds, and life circumstances. Whānau-centric, always.</p>
-                <span class="pill guide">Dignity first</span>
-            </article>
-            <article class="principle-card">
-                <h3>Whanaungatanga — connection &amp; community</h3>
-                <p>We're not a corporate service. We're part of Aotearoa's community. We share what we learn, support each other's mahi, and celebrate collective progress.</p>
-                <span class="pill guide">Together stronger</span>
-            </article>
-            <article class="principle-card">
-                <h3>Kaitiakitanga — guardianship &amp; responsibility</h3>
-                <p>We protect privacy like it's sacred (because it is). We think about long-term impacts. We're stewards of trust, not exploiters of data.</p>
-                <span class="pill guide">Trust earned</span>
-            </article>
+    </div>
+</section>
+
+<!-- Our Kaupapa -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Our founding principles</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Manaakitanga -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Manaakitanga</h3>
+                <p class="text-gray-600 text-sm font-semibold mb-4">Care with respect</p>
+                <p class="text-gray-700 leading-relaxed">
+                    We meet people where they are. We listen more than we talk. We respect different cultures, learning speeds, and life circumstances. Whānau-centric, always.
+                </p>
+            </div>
+
+            <!-- Whanaungatanga -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Whanaungatanga</h3>
+                <p class="text-gray-600 text-sm font-semibold mb-4">Connection & community</p>
+                <p class="text-gray-700 leading-relaxed">
+                    We're not a corporate service. We're part of Aotearoa's community. We share what we learn, support each other's mahi, and celebrate collective progress.
+                </p>
+            </div>
+
+            <!-- Kaitiakitanga -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Kaitiakitanga</h3>
+                <p class="text-gray-600 text-sm font-semibold mb-4">Guardianship & responsibility</p>
+                <p class="text-gray-700 leading-relaxed">
+                    We protect privacy like it's sacred (because it is). We think about long-term impacts. We're stewards of trust, not exploiters of data.
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="section section-how">
-    <div class="shell">
-        <h2>How we do our mahi</h2>
-        <p>We don't come in with a template. We listen, ask questions, and work alongside people to build a path that makes sense for their unique context. Whether you're a single parent learning to protect your tamariki online, or a community rōpū trying to manage volunteers and donations, we adapt to what you actually need.</p>
+<!-- What We Do -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">How we do our mahi</h2>
+        <p class="text-center text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
+            We don't come in with a template. We listen, ask questions, and build a path that makes sense for your unique context.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-6">We focus on real impact</h3>
+                <ul class="space-y-6">
+                    <li class="flex gap-4">
+                        <div class="text-2xl flex-shrink-0">🎓</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Practical learning sessions</h4>
+                            <p class="text-gray-600">For marae, schools, whānau, and community groups — no slides, just real conversation.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <div class="text-2xl flex-shrink-0">👥</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">One-to-one support</h4>
+                            <p class="text-gray-600">For small business owners, sole traders, and community leaders who need honest guidance.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <div class="text-2xl flex-shrink-0">🧪</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Hands-on experimentation</h4>
+                            <p class="text-gray-600">Helping people safely test tools, fail, learn, and grow at their own pace.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <div class="text-2xl flex-shrink-0">💪</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Capability building</h4>
+                            <p class="text-gray-600">Training and mentoring so organisations can keep going without us.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-blue-50 to-teal-50 p-8 rounded-2xl">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">The gap we fill</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    The problem is simple: there's a huge trust gap in Aotearoa.
+                </p>
+                <div class="space-y-4 mb-6">
+                    <div class="p-4 bg-white rounded-lg border-l-4 border-red-500">
+                        <p class="text-gray-700"><strong>Tech salespeople</strong> want to sell you something — at a profit.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border-l-4 border-orange-500">
+                        <p class="text-gray-700"><strong>Overseas tech companies</strong> want your data — to monetize.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border-l-4 border-green-500">
+                        <p class="text-gray-700"><strong>Maizura</strong> cares about your whānau's safety and your organisation's independence.</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 font-semibold">
+                    We're here because the gap existed, and our community needed filling it.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="section section-light">
-    <div class="shell split">
-        <div>
-            <h2>We focus on real impact</h2>
-            <ul>
-                <li><strong>Practical learning sessions:</strong> for marae, schools, whānau, and community groups — no slides, just real conversation.</li>
-                <li><strong>One-to-one support:</strong> for small business owners, sole traders, and community leaders who need honest guidance.</li>
-                <li><strong>Hands-on experimentation:</strong> helping people safely test tools, fail, learn, and grow at their own pace.</li>
-                <li><strong>Capability building:</strong> training and mentoring so organisations can keep going without us.</li>
-            </ul>
-        </div>
-        <div>
-            <h2>The gap we fill</h2>
-            <p>The problem is simple: there's a huge trust gap in Aotearoa. Tech salespeople want to sell you something. Overseas tech companies want your data. But who actually cares about your whānau's safety and your organisation's independence? That's Maizura. We're here because the gap existed, and our community needed filling it.</p>
+<!-- CTA -->
+<section class="py-16 bg-blue-600 text-white text-center">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6">Want to learn more?</h2>
+        <p class="text-lg opacity-95 mb-8 max-w-2xl mx-auto">
+            Read about our current initiatives, see stories of real change, or get in touch to start a kōrero.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="services.php" class="px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition">
+                See our initiatives
+            </a>
+            <a href="contact.php" class="px-8 py-3 bg-blue-700 text-white font-bold rounded-lg hover:bg-blue-800 transition border-2 border-white">
+                Start a kōrero
+            </a>
         </div>
     </div>
 </section>
+
 <?php require __DIR__ . '/includes/footer.php'; ?>
